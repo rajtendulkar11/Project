@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <hr>
+    <p>Click on a task to mark it as done or click remove to remove that task from the todo list.</p>
+    
+ <ol id="list">
+
+ </ol>
+ <form id="todoForm" action="#">
+    <label for="task">Task:</label>
+    <input id="task" type="text" name="task" placeholder="Enter the task" autofocus>
+    <br><br>
+    <input  id="submitButton" type="submit" value="Submit">
+ </form>
+ <p></p>
+ <style>
+    body{
+        background: aqua;
+    }
+
+    #submitButton{
+        background: purple;
+        color: white;
+        border-radius: 5px;
+    }
+ </style>
+</body>
+<script src="index.js"></script>
+</html>
